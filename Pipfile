@@ -7,6 +7,9 @@ name = "pypi"
 uvicorn = {extras = ["standart"], version = "*"}
 fastapi = "*"
 pydantic = "*"
+typing = "*"
+loguru = "*"
+starlette = "*"
 
 [dev-packages]
 

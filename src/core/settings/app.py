@@ -16,7 +16,7 @@ class AppSettings(BaseAppSettings):
     openapi_url: str = "/openapi.json"
     redoc_url: str = "/redoc"
     title: str = "FastAPI example application"
-    version: str = "0.0.0"
+    version: str = "1.0.0"
 
     database_url: PostgresDsn
     max_connection_count: int = 10
