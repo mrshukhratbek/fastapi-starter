@@ -3,8 +3,8 @@ from typing import Callable
 from fastapi import FastAPI
 from loguru import logger
 
-from app.core.settings.app import AppSettings
-from app.db.events import close_db_connection, connect_to_db
+from core.settings.app import AppSettings
+from db.events import close_db_connection, connect_to_db
 
 
 def create_start_app_handler(

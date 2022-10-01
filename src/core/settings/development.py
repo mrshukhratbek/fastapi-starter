@@ -1,6 +1,6 @@
 import logging
 
-from app.core.settings.app import AppSettings
+from core.settings.app import AppSettings
 
 
 class DevAppSettings(AppSettings):

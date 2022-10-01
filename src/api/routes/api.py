@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from src.api.routes import authentication, comments, profiles, tags, users
+# from api.routes import authentication, comments, profiles, tags, users
 # from src.api.routes.articles import api as articles
 
 router = APIRouter()

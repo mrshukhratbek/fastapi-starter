@@ -6,10 +6,12 @@ name = "pypi"
 [packages]
 uvicorn = {extras = ["standart"], version = "*"}
 fastapi = "*"
-pydantic = "*"
+
+ = "*"
 typing = "*"
 loguru = "*"
 starlette = "*"
+asyncpg = "*"
 
 [dev-packages]
 
